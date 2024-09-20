@@ -130,15 +130,17 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ## Proposta de Valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
+### Proposta para Persona Rachel 
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
+![Exemplo de proposta de valor](images/Persona-Rachel-1.png)
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+### Proposta para Persona Melissa 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
+![Exemplo de proposta de valor](images/Persona-Melissa-1.png)
+
+### Proposta para Persona Rodrigo 
+
+![Exemplo de proposta de valor](images/Persona-Rodrigo-1.png)
 
 ## Requisitos
 
