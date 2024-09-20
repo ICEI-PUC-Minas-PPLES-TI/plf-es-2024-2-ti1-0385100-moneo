@@ -2,13 +2,16 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
+* **Projeto:** [MONEO]
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * [Beatriz Camila](https://github.com/beacmartins); 
+  * [Eduarda Vieira](https://github.com/eduardavieira-dev);
+  * [Eric Leal](https://github.com/Eric-Leal);
+  * [Guilherme Rodrigues](https://github.com/marquezzinn);
+  * [Gustavo Montanari](https://github.com/Duelixta);
+  * [Laura Pontara](https://github.com/LauraPontara).
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -28,17 +31,7 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A falta de gestão e educação financeira é um dos maiores obstáculos para as pessoas atingirem sua independência financeira. Sem o conhecimento necessário, é fácil se endividar, não conseguir poupar e tomar decisões equivocadas. A educação financeira, por sua vez, capacita as pessoas a controlarem seus gastos, planejarem o futuro, investirem de forma inteligente e alcançar seus objetivos, visto que, ao aprender a gerenciar seu dinheiro, você adquire as ferramentas para tomar decisões mais conscientes, construir um patrimônio e viver com mais tranquilidade, livre das preocupações monetárias.
 
 ## Objetivos
 
