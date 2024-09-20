@@ -35,29 +35,22 @@ A falta de gestão e educação financeira é um dos maiores obstáculos para as
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+> O objetivo geral deste projeto é desenvolver um software intuitivo que auxilie os usuários a lidarem com a falta de gestão e educação financeira, proporcionando ferramentas que os ajudem a controlar seus gastos, adquirir conhecimento sobre investimentos e boas práticas de finanças.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+### Objetivos específicos:
+
+- Auxiliar na organização de despesas pessoais, permitindo ao usuário planejar e monitorar seu orçamento de forma prática e eficiente;
+- Informar sobre boas práticas de investimentos, oferecendo dicas e orientações que ajudem o usuário a tomar decisões financeiras mais conscientes e estratégicas;
+- Fornecer uma calculadora financeira a fim de auxiliar o usuário a calcular montantes;
+- Informar sobre opções de consórcio;
+- Mostrar notícias relevantes do mercado financeiro;
+- Fornecer informações sobre possíveis vagas de emprego para usuários que tenham interesse.
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+> A escolha do tema “Falta de gestão e educação financeira” para o desenvolvimento do projeto de software foi motivada pela crescente necessidade de abordar a inadimplência e a falta de conhecimento financeiro entre os brasileiros. De acordo com dados da Serasa, o Brasil registrou um aumento de 136 mil consumidores inadimplentes em julho de 2024, totalizando 72,66 milhões de pessoas em situação de inadimplência. Além disso, uma pesquisa da Agência Brasil revela que apenas 31% dos brasileiros buscam frequentemente dicas de especialistas sobre gestão financeira, e 49% nunca participam de cursos ou seminários sobre o tema. Esses dados evidenciam a urgência de ferramentas que promovam a educação financeira e auxiliem na gestão de finanças pessoais.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> Os objetivos específicos foram escolhidos em razão de que, com essas funções, o software se tornará uma ferramenta eficaz e eficiente para o foco do projeto, que é auxiliar na organização e educação monetária dos usuários, visando desenvolver uma aplicação que não apenas informe, mas também eduque os usuários sobre práticas financeiras saudáveis, contribuindo para a redução da inadimplência e melhorando a qualidade de vida financeira dos clientes.
 
 ## Público-Alvo
 
