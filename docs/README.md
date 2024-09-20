@@ -3,7 +3,7 @@
 Informações básicas do projeto.
 
 * **Projeto:** [MONEO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Repositório GitHub:** [REPOSITÓRIO](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-gestao-de-educacao-financeira.git)
 * **Membros da equipe:**
 
   * [Beatriz Camila](https://github.com/beacmartins); 
