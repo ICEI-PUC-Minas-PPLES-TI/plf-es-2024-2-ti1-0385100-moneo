@@ -107,19 +107,11 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
+| EU COMO...            | QUERO/PRECISO ...                          | PARA ...                               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| Usuário sem controle financeiro | Criar um plano de metas de economia com objetivos claros além de categorizar minhas despesas e receitas por projeto (Faculdade, Carro, etc) | Para controlar melhor o orçamento mensal   | Administrador financeiro familiar    | Acompanhar o histórico financeiro da família | Para gerenciar o orçamento familiar e planejar os gastos e permitir que possam administrar contas |
+| Recém-formado que não sabe investir  | Receber recomendações personalizadas de investimento | Para começar a investir de forma segura e informada pensando no futuro |
+| Pessoa com baixa educação financeira | Acessar conteúdos educativos sobre planejamento financeiro | Para aprender a organizar minhas finanças de forma eficiente e para seguir um planejamento financeiro e evitar surpresas |
 
 ## Proposta de Valor
 
