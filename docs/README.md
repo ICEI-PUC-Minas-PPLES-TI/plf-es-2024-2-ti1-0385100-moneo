@@ -111,7 +111,8 @@ A falta de gestão e educação financeira é um dos maiores obstáculos para as
 #### Entrevista 12
 ![Entrevista Qualitativa](images/Entrevista-12.png)
 
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+### Highlights de pesquisa
+![Highlights de Pesquisa](images/Highlights-de-Pesquisa.png)
 
 ## Etapa de Definição
 
