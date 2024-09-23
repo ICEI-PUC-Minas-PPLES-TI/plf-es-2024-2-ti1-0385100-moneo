@@ -166,10 +166,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-006 | Gerar relatórios mensais, trimestrais ou anuais das receitas, despesas e saldo. | ALTA     |
 | RF-007 | Fornecer insights sobre padrões de gastos, como principais categorias de despesas e mudanças ao longo do tempo. |  ALTA     |
 | RF-008 | Notificar os usuários quando estiverem próximos de atingir o limite do orçamento. | ALTA     |
-| RF-009 | Opção para configurar lembretes para registrar transações recorrentes. | MEDIA     |   
+| RF-009 | Opção para configurar lembretes para registrar transações recorrentes. | MÉDIA     |   
 | RF-010 | Atualizações sobre o progresso das metas financeiras definidas. | ALTA     |
-| RF-011 | Opção para exportar transações e relatórios em formato CSV ou PDF. | MEDIA     | 
-| RF-012 | Seção de perguntas frequentes e tutoriais para ajudar os usuários a utilizar a plataforma. | MEDIA     | 
+| RF-011 | Opção para exportar transações e relatórios em formato CSV ou PDF. | MÉDIA     | 
+| RF-012 | Seção de perguntas frequentes e tutoriais para ajudar os usuários a utilizar a plataforma. | MÉDIA     | 
 | RF-013 |  Canal de comunicação para suporte ao cliente, como chat ao vivo ou formulário de contato. | ALTA     |
 
 
@@ -179,13 +179,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | Implementação de criptografia para proteger dados sensíveis dos usuários. | Alta     |
-| RNF-002 | Controle de acesso baseado em funções para recursos do site. | MEDIA     |
+| RNF-001 | Implementação de criptografia para proteger dados sensíveis dos usuários. | ALTA     |
+| RNF-002 | Controle de acesso baseado em funções para recursos do site. | MÉDIA     |
 | RNF-003 | Exibir uma política de privacidade clara sobre como os dados dos usuários serão usados e protegidos. | ALTA     | 
 | RNF-004 | Conectar-se a APIs de bancos para importar transações automaticamente. | ALTA     | 
 | RNF-005 | Ferramentas como calculadoras de juros compostos, empréstimos e investimentos. | ALTA     | 
 | RNF-006 | Suporte para múltiplas moedas e taxas de câmbio. | ALTA     | 
-| RNF-007 | Suporte para diferentes idiomas. | MEDIA     | 
+| RNF-007 | Suporte para diferentes idiomas. | MÉDIA     | 
 
 
 
