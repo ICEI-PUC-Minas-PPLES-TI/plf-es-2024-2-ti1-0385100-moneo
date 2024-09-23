@@ -216,7 +216,7 @@ Descrição para a tela XPTO
 
 **✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
 
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
+![userflow](https://github.com/user-attachments/assets/aeebe1c6-5cec-498a-97f5-71643a8c6052)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
