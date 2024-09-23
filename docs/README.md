@@ -54,18 +54,7 @@ A falta de gestão e educação financeira é um dos maiores obstáculos para as
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+> O público-alvo do MONEO é composto por pessoas na faixa etária de 20 a 50 anos, focando especialmente em assalariados que buscam uma melhor organização financeira. Este grupo inclui jovens profissionais, trabalhadores em meio de carreira e até aqueles que se aproximam da aposentadoria, todos enfrentando desafios relacionados ao gerenciamento de suas finanças pessoais. A plataforma atende a necessidades como controle de gastos, planejamento de orçamento e auxílio na realização de metas financeiras, proporcionando uma experiência intuitiva e prática para usuários que desejam ter mais controle sobre suas finanças.
 
 # Product Discovery
 
@@ -141,9 +130,12 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 | EU COMO...            | QUERO/PRECISO ...                          | PARA ...                               |
 | --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário sem controle financeiro | Criar um plano de metas de economia com objetivos claros além de categorizar minhas despesas e receitas por projeto (Faculdade, Carro, etc) | Para controlar melhor o orçamento mensal   | Administrador financeiro familiar    | Acompanhar o histórico financeiro da família | Para gerenciar o orçamento familiar e planejar os gastos e permitir que possam administrar contas |
-| Recém-formado que não sabe investir  | Receber recomendações personalizadas de investimento | Para começar a investir de forma segura e informada pensando no futuro |
-| Pessoa com baixa educação financeira | Acessar conteúdos educativos sobre planejamento financeiro | Para aprender a organizar minhas finanças de forma eficiente e para seguir um planejamento financeiro e evitar surpresas |
+| Estudante universitária | Organizar minhas finanças | Para alcançar minha independência financeira |  
+| CLT Analista Financeira    | Auxilio para investir | Para conseguir um retorno com o investimento e dar uma vida melhor para a familia |
+| Pai de familia  | Organizar minhas finanças | Para evitar gastos imprevistos e me aposentar |
+| Trabalhador | Aprender sobre investimentos | Para ampliar minhas opções de renda |
+| Mãe e estudante | informações sobre como financiar um imovel | Para conquistar minha casa propria |
+| Jovem adulta | Controlar meus gastos | Para conseguir mora sozinha |
 
 ## Proposta de Valor
 
