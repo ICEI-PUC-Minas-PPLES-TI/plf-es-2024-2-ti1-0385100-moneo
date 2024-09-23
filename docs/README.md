@@ -199,7 +199,7 @@ Estes são os protótipos de telas do sistema.
 
 Descrição para a tela XPTO
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
+![Exemplo de wireframe](files/wireframe.png)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
