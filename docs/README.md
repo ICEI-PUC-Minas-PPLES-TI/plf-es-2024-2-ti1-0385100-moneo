@@ -71,10 +71,46 @@ A falta de gestão e educação financeira é um dos maiores obstáculos para as
 
 ## Etapa de Entendimento
 
-> * **Matriz CSD e Mapa de stakeholders**
+### Matriz CSD e Mapa de stakeholders
 ![Matriz CSD e Mapa de stakeholders](images/Matriz-CSD-Mapa-Stakeholders.png)
 
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
+### Entrevistas qualitativas
+#### Entrevista 1
+![Entrevista Qualitativa](images/Entrevista-1.png)
+
+#### Entrevista 2
+![Entrevista Qualitativa](images/Entrevista-2.png)
+
+#### Entrevista 3 
+![Entrevista Qualitativa](images/Entrevista-3.png)
+
+#### Entrevista 4 
+![Entrevista Qualitativa](images/Entrevista-4.png)
+
+#### Entrevista 5 
+![Entrevista Qualitativa](images/Entrevista-5.png)
+
+#### Entrevista 6 
+![Entrevista Qualitativa](images/Entrevista-6.png)
+
+#### Entrevista 7 
+![Entrevista Qualitativa](images/Entrevista-7.png)
+
+#### Entrevista 8
+![Entrevista Qualitativa](images/Entrevista-8.png)
+
+#### Entrevista 9 
+![Entrevista Qualitativa](images/Entrevista-9.png)
+
+#### Entrevista 10  
+![Entrevista Qualitativa](images/Entrevista-10.png)
+
+#### Entrevista 11
+![Entrevista Qualitativa](images/Entrevista-11.png)
+
+#### Entrevista 12
+![Entrevista Qualitativa](images/Entrevista-12.png)
+
 > * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 
 ## Etapa de Definição
