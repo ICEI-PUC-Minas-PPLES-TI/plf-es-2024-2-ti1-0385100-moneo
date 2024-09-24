@@ -108,6 +108,8 @@ A falta de gestão e educação financeira é um dos maiores obstáculos para as
 ### Personas
 
 ![Personas](images/P1.png)
+![Personas](images/P2.png)
+![Personas](images/P3.png)
 
 # Product Design
 
