@@ -218,9 +218,8 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
 | Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKnBExFk=/        |
-| Repositório de código       | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
-| Protótipo Interativo        |  MarvelApp | https://www.figma.com/design/hECitfhANxNDXAvHaSZPwe/Userflow-Moneo?node-id=0-1&t=X5GwkispIv95iB1S-1    |
-|                             |            |                                                    |
+| Repositório de código       | GitHub     | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-gestao-de-educacao-financeira      |
+| Protótipo Interativo        | Figma | https://www.figma.com/design/hECitfhANxNDXAvHaSZPwe/Userflow-Moneo?node-id=0-1&t=X5GwkispIv95iB1S-1    |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
