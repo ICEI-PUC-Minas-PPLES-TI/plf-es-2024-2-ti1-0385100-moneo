@@ -353,14 +353,15 @@ Esta seção apresenta os módulos e APIs utilizados na solução
 # Referências
 
 As referências utilizadas no trabalho foram:
-
-* SOBRENOME, Nome do autor. Título da obra. 8. ed. Cidade: Editora, 2000. 287 p ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
->
-> **Orientações**:
->
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+ENDIVIDAMENTO das famílias fica estável em junho. Agência Brasil. Disponível
+em:
+<https://agenciabrasil.ebc.com.br/economia/noticia/2024-07/endividamento-das-famil
+ias-fica-estavel-em-junho-diz-cnc>. Acesso em: 21 set. 2024.
+MAPA de inadimplência e renegociação de dívidas no Brasil da Serasa. Serasa.
+Disponível em:
+<https://www.serasa.com.br/limpa-nome-online/blog/mapa-da-inadimplencia-e-renog
+ociacao-de-dividas-no-brasil/>. Acesso em: 20 set. 2024.
+PESQUISA revela que 58% dos brasileiros não se dedicam às próprias finanças.
+Agência Brasil. Disponível em:
+<https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/pesquisa-revela-que-58-
+dos-brasileiros-nao-se-dedicam-proprias-financas>. Acesso em: 20 set. 2024.
