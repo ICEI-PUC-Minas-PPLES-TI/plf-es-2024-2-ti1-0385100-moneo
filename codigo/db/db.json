@@ -20,6 +20,48 @@
       "nome": "Rommel",
       "email": "rommel@gmail.com",
       "id": 3
+    },
+    {
+      "login": "eduarda",
+      "senha": "123",
+      "nome": "Eduarda Vieira",
+      "email": "eduarda@.com",
+      "id": 4
+    },
+    {
+      "login": "eric",
+      "senha": "123",
+      "nome": "Eric Leal",
+      "email": "eric@.com",
+      "id": 5
+    },
+    {
+      "login": "beatriz",
+      "senha": "123",
+      "nome": "Beatriz Camila",
+      "email": "beatriz@.com",
+      "id": 6
+    },
+    {
+      "login": "gustavo",
+      "senha": "123",
+      "nome": "Gustavo Montanari",
+      "email": "gustavo@.com",
+      "id": 7
+    },
+    {
+      "login": "guilherme",
+      "senha": "123",
+      "nome": "Guilherme Marques",
+      "email": "guilherme@.com",
+      "id": 8
+    },
+    {
+      "login": "laura",
+      "senha": "123",
+      "nome": "Laura Pontara",
+      "email": "laura@.com",
+      "id": 9
     }
   ]
 }
