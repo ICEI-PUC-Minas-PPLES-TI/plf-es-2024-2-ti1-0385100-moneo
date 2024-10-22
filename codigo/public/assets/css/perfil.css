@@ -1,0 +1,72 @@
+.imagemUsuario {
+    border-radius: 50%;
+    width: 40px;  
+    height: 40px; 
+    margin-right: 8px; 
+}
+
+.dropdown-item{
+    text-align: center;
+    padding: 0 0;
+    font-size: 16px;
+    width: auto; 
+    white-space: nowrap; 
+    line-height: 1; 
+    
+}
+.dropdown-menu {
+    margin-left: 50%;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.sair-botao{
+    text-align: center;
+}
+
+.linha{
+    border: 0; 
+    height: 2px; 
+    background-color: black;
+    margin: 10px 0; 
+}
+
+.fundo-main{
+    border-radius: 20px;
+}
+
+
+.form-control-inline {
+    display: inline-block;
+    width: auto;
+}
+
+
+
+.botao-fotoDePerfil {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.botao-fotoDePerfil img {
+    width: 100px;
+    height: 100px;
+}
+
+.lapis-botao {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: black;
+}
+
+.textoPerfil{
+    margin-left: 20px;
+}
+
