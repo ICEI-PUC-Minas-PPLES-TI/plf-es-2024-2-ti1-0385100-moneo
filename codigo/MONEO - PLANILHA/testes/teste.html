@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão Financeira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestão Financeira</h1>
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td onclick="editarCelula(this)">Clique para editar</td>
+                <td onclick="editarCelula(this)">Clique para editar</td>
+                <td onclick="editarCelula(this)">Clique para editar</td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="adicionarLinha">Adicionar Linha</button>
+    <script src="script.js"></script>
+</body>
+</html>

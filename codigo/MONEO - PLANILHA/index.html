@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>MONEO - Planilha de Gestão Financeira</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Moneo</a>
+            <p id="username">Usuário</p>
+            <img src="imagens/perfil-default.png" alt="Imagem de perfil usuário" id="imgperfil">
+          </div>
+    </header>
+
+    <h2>Planilha de Gerenciamento de Dados</h2>
+    <hr>
+
+    <p class="resumo">A planilha de gerenciamento foi desenvolvida para ajudá-lo a organizar e ter melhor controle sobre seus gastos mensais variáveis e fixos, a fim de automatizar e facilitar o seu planejamento financeiro.</p>
+
+    <p class="resumo">Experimente a planilha abaixo cadastrando valores de suas despesas, como aluguel, fatura do cartão de crédito etc.</p>
+
+    <section class="formulario">
+        <div class="inputes">
+            <div class="dataElimite">
+                <h3>Data de Início</h3>
+                <input id="dataInicio" type="date" />
+                <h3>Valor limite mensal</h3>
+                <input type="text" id="valorLimite" name="valor" placeholder="R$ 0,00" required />
+            </div>
+            <div class="pagamentoErenda">
+                <h3>Data prevista para pagamento</h3>
+                <input id="dataPagamento" type="date"/>
+                <h3>Valor da renda mensal</h3>
+                <input type="text" id="salario" name="salario" placeholder="R$ 0,00" required />
+            </div>
+        </div>
+        <div class="botoes">
+            <button id="submitDados">Enviar</button>
+            <button id="limparDados">Limpar</button>
+        </div>
+    </section>
+
+    <main class="templanilha">
+        <h2>Planilha de Gestão Financeira</h2>
+        <p id="dataInicioDisplay"></p>
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Descrição</th>
+                    <th>Categoria</th>
+                    <th>Valor</th>
+                    <th>Forma de pagamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="editarCelula(this)">clique para editar</td>
+                    <td onclick="editarCelula(this)">clique para editar</td>
+                    <td onclick="editarCelula(this)">clique para editar</td>
+                    <td onclick="editarCelula(this)">clique para editar</td>
+                    <td onclick="editarCelula(this)">clique para editar</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 id="subtitulomain">Resumo Financeiro</h3>
+        <table id="resumoTabela">
+            <thead>
+                <tr>
+                    <th>Pagamento</th>
+                    <th>Salário</th>
+                    <th>Total</th>
+                    <th>Saldo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="dataPrevistaPagamento" onclick="editarCelula(this)">clique para editar</td>
+                    <td id="salarioValor" onclick="editarCelula(this)">clique para editar</td>
+                    <td id="totalValor">R$ 0,00</td>
+                    <td id="saldoValor">R$ 0,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
