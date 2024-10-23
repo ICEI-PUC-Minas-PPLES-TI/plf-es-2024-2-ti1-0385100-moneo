@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --first-color: rgb(242, 192, 255);
+    --input-color: rgb(61, 158, 50);
+    --border-color: rgb(95, 207, 67);
+    --primary-color: #404440;
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+  
+}
+
+h2,
+h4 {
+    text-align: center;
+    color: var(--primary-color);
+}
+.imagemUsuario {
+    border-radius: 50%;
+    width: 40px;  
+    height: 40px; 
+    margin-right: 8px; 
+}
+
+.dropdown-item{
+    text-align: center;
+    padding: 0 0;
+    font-size: 16px;
+    width: auto; 
+    white-space: nowrap; 
+    line-height: 1; 
+    
+}
+.dropdown-menu {
+    margin-left: 50%;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+main {
+    margin: 20px auto;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.principal {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    max-width: 250px;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--white-color);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form_div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form_label {
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: var(--input-color);
+}
+
+.form_prefix {
+    position: absolute;
+    left: 12px;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: var(--input-color);
+}
+
+.form_input {
+    width: 100%;
+    padding: 12px 15px 12px 35px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form_input#rate,
+.form_input#period {
+    padding: 12px 15px 12px 10px;
+}
+
+/*
+ * Remover as setas do input de tipo number
+ */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.form_suffix {
+    position: absolute;
+    right: 15px;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: var(--input-color);
+}
+
+.form_button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin: 10px 5px 0;
+    display: inline-block;
+}
+
+#buttons-div {
+    display: flex;
+    width: 250px;
+}
+
+#calculate {
+    background-color: rgb(104, 206, 75);
+}
+
+#clean {
+    background-color: rgb(132, 189, 117);
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+    }
+}
