@@ -1,12 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Laura" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livros</title>
+    <title>Cadastro de Livros</title>
+    <link rel="stylesheet" href="assets/css/livros.css">
 </head>
+
 <body>
-    
+    <!-- Barra de Navegaçao -->
+    <nav class="cabecalho">
+        <h1><a href="index.html">Moneo</a></h1>
+        <div id="divPerfil">
+            <img src="perfil.png" alt="foto de perfil">
+            <p id="userName">Laura</p>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>Cadastro de Livros</h2>
+        <!-- Parte do formulário -->
+        <div class="formulario">
+            <form action="#">
+                <!-- Campos para entrada de dados -->
+                <div class="input-box">
+                    <label for="id">ID do Livro</label>
+                    <input id="id" type="text" name="id" placeholder="ID">
+                </div>
+
+                <div class="input-box">
+                    <label for="titulo">Título da Obra</label>
+                    <input id="titulo" type="text" name="titulo" placeholder="Informe o título do livro" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="autor">Nome do Autor</label>
+                    <input id="autor" type="text" name="autor" placeholder="Informe o autor" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="editora">Editora</label>
+                    <input id="editora" type="text" name="editora" placeholder="Informe a editora">
+                </div>
+
+                <div class="input-box">
+                    <label for="ano">Ano de Publicação</label>
+                    <input id="ano" type="text" name="ano" placeholder="Digite o ano">
+                </div>
+
+                <div class="input-box">
+                    <label for="sinopse">Sinopse</label>
+                    <input id="sinopse" type="text" name="sinopse" placeholder="Digite uma descrição sobre a obra">
+                </div>
+
+                <!-- Seletor de categoria -->
+                <div class="input-box">
+                    <label for="categoria">Categoria</label>
+                    <select name="categoria" id="categoria">
+                        <option value="FP">Finanças Pessoais</option>
+                        <option value="EF">Educação Financeira</option>
+                        <option value="I">Investimentos</option>
+                        <option value="PF">Planejamento Financeiro</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label for="linkcap">Capa</label>
+                    <input id="linkcap" type="text" name="linkcap" placeholder="Informe a URL da imagem da capa"
+                        required>
+                </div>
+
+                <div class="input-box">
+                    <label for="compra">Link de Compra do Livro</label>
+                    <input id="compra" type="text" name="compra" placeholder="Informe a URL para compra">
+                </div>
+
+                <!-- Parte dos botões -->
+                <div class="buttom-group">
+                    <button id="btnInserir" type="submit">Inserir no sistema</button>
+                    <button id="btnAlterar" type="button">Alterar</button>
+                    <button id="btnExcluir" type="button">Excluir</button>
+                    <button id="btnPesquisar" type="button">Pesquisar</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Parte para exibir os Livros Cadastrados -->
+        <div class="tabela">
+            <table id="liLivros">
+                <tr class="firstLine">
+                    <td>ID</td>
+                    <td>Título</td>
+                    <td>Autor</td>
+                    <td>Categoria</td>
+                    <td>Editora</td>
+                    <td>Publicação</td>
+                </tr>
+                <!-- <tr id="linhaTabela">
+                    <td class="id"></td>
+                    <td id="nomeObra"></td>
+                    <td id="nomeAutor"></td>
+                    <td id="tipoCate"></td>
+                    <td id="nomeEditora"></td>
+                    <td id="anoPubli"></td>
+                </tr> -->
+            </table>
+        </div>
+    </main>
 </body>
+
 </html>
