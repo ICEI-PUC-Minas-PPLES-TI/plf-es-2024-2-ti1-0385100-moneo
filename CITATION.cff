@@ -1,31 +1,33 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Moneo
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Martins 
+    given-names: Beatriz Camila
+  - family-names: Vieira Gonçalves
+    given-names: Eduarda
+  - family-names: Leal
+    given-names: Eric
+  - family-names: Marques 
+    given-names: Guilherme
+  - family-names: Montanari
+    given-names: Gustavo
+  - family-names: Pontara Lopes
+    given-names: Laura
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Silva
+    given-names: Cleiton
 keywords:
-  - 
-  - 
-repository-code: 
+  - Finanças
+  - Gestão financeira
+  - Conhecimento
+  - Informações
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-moneo
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2024-12-11
