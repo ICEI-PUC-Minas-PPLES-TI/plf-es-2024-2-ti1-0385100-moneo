@@ -385,7 +385,9 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
   * No select escolha escolha um dos invetimentos cadastrados no sistema como Tesouro direto, CDB, etc
   * Preencha os campos e calcule um investimento para ser gerado no histórico um registro
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+  
+![Tela de Funcionalidade](images/calculdora.png)
+
 
 
 
