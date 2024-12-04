@@ -278,7 +278,7 @@ Permite a inclusão de comentários e notas para os livros, permite edição e e
   * Em seguida, escolha o livro que deseja fazer uma avaliação
   * Comente algo sobre o livro
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+![Tela de Funcionalidade](images/TelaComentarios.png)
 
 ## Estruturas de Dados
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
