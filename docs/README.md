@@ -296,6 +296,43 @@ Registro dos comentarios feito pelos usuarios
       "fotousuario": "https://avatars.githubusercontent.com/u/181984841?v=4"
     }
 ```
+
+#### Funcionalidade 6 - Calculadora de investimentos com histórico
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+* **Estrutura de dados:** [Investimentos](#ti_ed_contatos)
+* **Estrutura de dados:** [Histórico](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra a tela da calculadora
+  * No select escolha escolha um dos invetimentos cadastrados no sistema como Tesouro direto, CDB, etc
+  * Preencha os campos e calcule um investimento para ser gerado no histórico um registro
+* **Tela da funcionalidade**:
+![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+
+
+
+## Estruturas de Dados
+Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
+##### Estrutura de Dados - Investimento
+Busca de informações dos investimentos no sistema
+```json
+    {
+        "id": 1,
+        "nome": "CDB",
+        "taxa": 10
+    }
+```
+
+##### Estrutura de Dados - Hitórico
+Registro do historico de investimentos calculados pelo usuario
+```json
+  {
+        "id": 1,
+        "nomeRegistro": "Registro 1",
+        "nomeInvestimento": "Tesouro Direto",
+        "valorInvestido": "1200",
+        "valorTotal": "1268.25"
+  }
+```
 ## Módulos e APIs
 Esta seção apresenta os módulos e APIs utilizados na solução
 **Images**:
