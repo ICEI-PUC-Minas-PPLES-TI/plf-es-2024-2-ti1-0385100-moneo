@@ -296,6 +296,31 @@ Registro dos comentarios feito pelos usuarios
       "fotousuario": "https://avatars.githubusercontent.com/u/181984841?v=4"
     }
 ```
+#### Funcionalidade 5 - Tela de planilha de gestão financeira + notificações de valor limite
+Permite a entrada de dados necessários para a criação da planilha através de um formulário sucinto. Ao ser criada a planilha, o usuário poderá entrar com informações sobre seus gastos mensais e visualizar um resumo financeiro, como o total gasto e saldo restante, por exemplo. A sub-funcionalidade de notificações permite que o usuário seja notficado quando o total gasto se aproximar do valor limite definido no formulário. As notificações também ficam guardadas no ícone de notificação.  
+
+* **Estrutura de dados:** [dados-planilha]
+* **Instruções de acesso:**
+  * Abra o site e preencha o formulário corretamente
+  * Clique no botão "Enviar"
+  * A planilha será criada
+  * Preencha as células da planilha como desejado
+* **Tela da funcionalidade**:
+![Tela de Funcionalidade](images/Planilha1.png)
+![Tela de Funcionalidade](images/Planilha2.png)
+
+```json
+  {
+    "dados-planilha": [
+     {
+      "dataPagamento": "2025-05-05",
+      "salario": 1000000,
+      "dataInicio": "2006-03-01",
+      "id": "1"
+     }
+   ]
+  }
+```
 
 #### Funcionalidade 6 - Calculadora de investimentos com histórico
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
