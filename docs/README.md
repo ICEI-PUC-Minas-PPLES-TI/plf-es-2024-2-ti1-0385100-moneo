@@ -239,38 +239,54 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 > O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
 >
 > Inclua um link para o vídeo do projeto.
+
 ## Funcionalidades
 Esta seção apresenta as funcionalidades da solução.Info
-##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
+##### Funcionalidade 1 - Tela de perfil
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
+* **Estrutura de dados:** [Usuarios](#ti_ed_contatos)
 * **Instruções de acesso:**
   * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
+  * Clique na sua foto de perfil no canto superior direito
+  * Em seguida, escolha a opção Configurações
 * **Tela da funcionalidade**:
 ![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
 > Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
 >
 > Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
 ## Estruturas de Dados
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
-##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
+##### Estrutura de Dados - Usuarios
 Contatos da aplicação
 ```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+    {
+      "id": 5,
+      "login": "eric",
+      "email": "eric2@.com2",
+      "nome": "Eric Leal",
+      "senha": "123",
+      "telefone": "12341123",
+      "endereco": "endereço",
+      "foto": "https://avatars.githubusercontent.com/u/181984841?v=4"
+    }
   
 ```
+##### Funcionalidade 2 - Tela de perfil
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+* **Estrutura de dados:** [Usuarios](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Clique na sua foto de perfil no canto superior direito
+  * Em seguida, escolha a opção Configurações
+* **Tela da funcionalidade**:
+![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+>
+> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
+>
+> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+## Estruturas de Dados
+Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
 ##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema
 ```json
