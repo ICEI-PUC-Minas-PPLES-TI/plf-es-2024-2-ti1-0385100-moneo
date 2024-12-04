@@ -296,6 +296,59 @@ Registro dos comentarios feito pelos usuarios
       "fotousuario": "https://avatars.githubusercontent.com/u/181984841?v=4"
     }
 ```
+#### Funcionalidade 3 - Cadastro de Livros
+Permite o cadastro, edição e exclusão de livros.
+* **Estrutura de dados:** [Livros](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Clicar no card de cadastro de livros
+* **Tela da funcionalidade**:
+![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+>
+> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
+>
+> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+## Estruturas de Dados
+Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
+##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
+Registro dos usuários do sistema utilizados para login e para o perfil do sistema
+```json
+  {
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    email: "admin@abc.com",
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    login: "admin",
+    nome: "Administrador do Sistema",
+    senha: "123"
+  }
+```
+#### Funcionalidade 4 - Filtro de livros
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+* **Estrutura de dados:** [Usuarios](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Clique na sua foto de perfil no canto superior direito
+  * Em seguida, escolha a opção Configurações
+* **Tela da funcionalidade**:
+![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+>
+> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
+>
+> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+## Estruturas de Dados
+Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
+##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
+Registro dos usuários do sistema utilizados para login e para o perfil do sistema
+```json
+  {
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    email: "admin@abc.com",
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    login: "admin",
+    nome: "Administrador do Sistema",
+    senha: "123"
+  }
+```
 #### Funcionalidade 5 - Tela de planilha de gestão financeira + notificações de valor limite
 Permite a entrada de dados necessários para a criação da planilha através de um formulário sucinto. Ao ser criada a planilha, o usuário poderá entrar com informações sobre seus gastos mensais e visualizar um resumo financeiro, como o total gasto e saldo restante, por exemplo. A sub-funcionalidade de notificações permite que o usuário seja notficado quando o total gasto se aproximar do valor limite definido no formulário. As notificações também ficam guardadas no ícone de notificação.  
 
