@@ -27,15 +27,13 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
-
 ## Problema
 
 A falta de gestão e educação financeira é um dos maiores obstáculos para as pessoas atingirem sua independência financeira. Sem o conhecimento necessário, é fácil se endividar, não conseguir poupar e tomar decisões equivocadas. A educação financeira, por sua vez, capacita as pessoas a controlarem seus gastos, planejarem o futuro, investirem de forma inteligente e alcançar seus objetivos, visto que, ao aprender a gerenciar seu dinheiro, você adquire as ferramentas para tomar decisões mais conscientes, construir um patrimônio e viver com mais tranquilidade, livre das preocupações monetárias.
 
 ## Objetivos
 
-> O objetivo geral deste projeto é desenvolver um software intuitivo que auxilie os usuários a lidarem com a falta de gestão e educação financeira, proporcionando ferramentas que os ajudem a controlar seus gastos, adquirir conhecimento sobre investimentos e boas práticas de finanças.
+O objetivo geral deste projeto é desenvolver um software intuitivo que auxilie os usuários a lidarem com a falta de gestão e educação financeira, proporcionando ferramentas que os ajudem a controlar seus gastos, adquirir conhecimento sobre investimentos e boas práticas de finanças.
 
 ### Objetivos específicos:
 
@@ -48,13 +46,13 @@ A falta de gestão e educação financeira é um dos maiores obstáculos para as
 
 ## Justificativa
 
-> A escolha do tema “Falta de gestão e educação financeira” para o desenvolvimento do projeto de software foi motivada pela crescente necessidade de abordar a inadimplência e a falta de conhecimento financeiro entre os brasileiros. De acordo com dados da Serasa, o Brasil registrou um aumento de 136 mil consumidores inadimplentes em julho de 2024, totalizando 72,66 milhões de pessoas em situação de inadimplência. Além disso, uma pesquisa da Agência Brasil revela que apenas 31% dos brasileiros buscam frequentemente dicas de especialistas sobre gestão financeira, e 49% nunca participam de cursos ou seminários sobre o tema. Esses dados evidenciam a urgência de ferramentas que promovam a educação financeira e auxiliem na gestão de finanças pessoais.
+A escolha do tema “Falta de gestão e educação financeira” para o desenvolvimento do projeto de software foi motivada pela crescente necessidade de abordar a inadimplência e a falta de conhecimento financeiro entre os brasileiros. De acordo com dados da Serasa, o Brasil registrou um aumento de 136 mil consumidores inadimplentes em julho de 2024, totalizando 72,66 milhões de pessoas em situação de inadimplência. Além disso, uma pesquisa da Agência Brasil revela que apenas 31% dos brasileiros buscam frequentemente dicas de especialistas sobre gestão financeira, e 49% nunca participam de cursos ou seminários sobre o tema. Esses dados evidenciam a urgência de ferramentas que promovam a educação financeira e auxiliem na gestão de finanças pessoais.
 
-> Os objetivos específicos foram escolhidos em razão de que, com essas funções, o software se tornará uma ferramenta eficaz e eficiente para o foco do projeto, que é auxiliar na organização e educação monetária dos usuários, visando desenvolver uma aplicação que não apenas informe, mas também eduque os usuários sobre práticas financeiras saudáveis, contribuindo para a redução da inadimplência e melhorando a qualidade de vida financeira dos clientes.
+Os objetivos específicos foram escolhidos em razão de que, com essas funções, o software se tornará uma ferramenta eficaz e eficiente para o foco do projeto, que é auxiliar na organização e educação monetária dos usuários, visando desenvolver uma aplicação que não apenas informe, mas também eduque os usuários sobre práticas financeiras saudáveis, contribuindo para a redução da inadimplência e melhorando a qualidade de vida financeira dos clientes.
 
 ## Público-Alvo
 
-> O público-alvo do MONEO é composto por pessoas na faixa etária de 20 a 50 anos, focando especialmente em assalariados que buscam uma melhor organização financeira. Este grupo inclui jovens profissionais, trabalhadores em meio de carreira e até aqueles que se aproximam da aposentadoria, todos enfrentando desafios relacionados ao gerenciamento de suas finanças pessoais. A plataforma atende a necessidades como controle de gastos, planejamento de orçamento e auxílio na realização de metas financeiras, proporcionando uma experiência intuitiva e prática para usuários que desejam ter mais controle sobre suas finanças.
+O público-alvo do MONEO é composto por pessoas na faixa etária de 20 a 50 anos, focando especialmente em assalariados que buscam uma melhor organização financeira. Este grupo inclui jovens profissionais, trabalhadores em meio de carreira e até aqueles que se aproximam da aposentadoria, todos enfrentando desafios relacionados ao gerenciamento de suas finanças pessoais. A plataforma atende a necessidades como controle de gastos, planejamento de orçamento e auxílio na realização de metas financeiras, proporcionando uma experiência intuitiva e prática para usuários que desejam ter mais controle sobre suas finanças.
 
 # Product Discovery
 
@@ -233,6 +231,77 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 
 
 
+## Vídeo do Projeto
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
+[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
+> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>
+> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
+>
+> Inclua um link para o vídeo do projeto.
+## Funcionalidades
+Esta seção apresenta as funcionalidades da solução.Info
+##### Funcionalidade 1 - Cadastro de Contatos ⚠️ EXEMPLO ⚠️
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Acesse o menu principal e escolha a opção Cadastros
+  * Em seguida, escolha a opção Contatos
+* **Tela da funcionalidade**:
+![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>
+> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
+>
+> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+## Estruturas de Dados
+Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
+##### Estrutura de Dados - Contatos   ⚠️ EXEMPLO ⚠️
+Contatos da aplicação
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
+Registro dos usuários do sistema utilizados para login e para o perfil do sistema
+```json
+  {
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    email: "admin@abc.com",
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    login: "admin",
+    nome: "Administrador do Sistema",
+    senha: "123"
+  }
+```
+> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+>
+> Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração
+>
+> Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.
+>
+> **Orientações:**
+>
+> * [JSON Introduction](https://www.w3schools.com/js/js_json_intro.asp)
+> * [Trabalhando com JSON - Aprendendo desenvolvimento web | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+## Módulos e APIs
+Esta seção apresenta os módulos e APIs utilizados na solução
+**Images**:
+* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
+**Fonts:**
+* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+**Scripts:**
+* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
+* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
 
 
 # Referências
