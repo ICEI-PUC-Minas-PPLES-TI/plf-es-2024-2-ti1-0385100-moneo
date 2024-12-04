@@ -306,6 +306,7 @@ Permite a entrada de dados necessários para a criação da planilha através de
   * A planilha será criada
   * Preencha as células da planilha como desejado
 * **Tela da funcionalidade**:
+  
 ![Tela de Funcionalidade](images/Planilha1.png)
 ![Tela de Funcionalidade](images/Planilha2.png)
 
