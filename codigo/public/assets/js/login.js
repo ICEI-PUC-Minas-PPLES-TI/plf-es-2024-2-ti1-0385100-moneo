@@ -78,10 +78,9 @@ function loginUser (login, senha) {
 
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
         if (login == usuario.login && senha == usuario.senha) {
-            usuarioCorrente.id = usuario.id;
-            usuarioCorrente.login = usuario.login;
-            usuarioCorrente.email = usuario.email;
-            usuarioCorrente.nome = usuario.nome;
+
+            Object.assign(usuarioCorrente, usuario);
+
 
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
             sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
@@ -95,18 +94,17 @@ function loginUser (login, senha) {
     return false;
 }
 
-// Apaga os dados do usuário corrente no sessionStorage
 function logoutUser () {
     sessionStorage.removeItem ('usuarioCorrente');
     window.location = LOGIN_URL;
 }
-
+function logoutUser () {
+    sessionStorage.removeItem ('usuarioCorrente');
+    window.location = LOGIN_URL;
+}
 function addUser (nome, login, senha, email) {
-
-    // Cria um objeto de usuario para o novo usuario 
     let usuario = { "login": login, "senha": senha, "nome": nome, "email": email };
 
-    // Envia dados do novo usuário para ser inserido no JSON Server
     fetch(API_URL, {
         method: 'POST',
         headers: {
@@ -114,16 +112,18 @@ function addUser (nome, login, senha, email) {
         },
         body: JSON.stringify(usuario),
     })
-        .then(response => response.json())
-        .then(data => {
-            // Adiciona o novo usuário na variável db_usuarios em memória
-            db_usuarios.push (usuario);
-            displayMessage("Usuário inserido com sucesso");
-        })
-        .catch(error => {
-            console.error('Erro ao inserir usuário via API JSONServer:', error);
-            displayMessage("Erro ao inserir usuário");
-        });
+    .then(response => response.json())
+    .then(data => {
+        db_usuarios.push(data); // Use a resposta do servidor
+        displayMessage("Usuário inserido com sucesso");
+        
+        // Deslogar o usuário
+        logoutUser(); // Adicionada a linha para deslogar
+    })
+    .catch(error => {
+        console.error('Erro ao inserir usuário via API JSONServer:', error);
+        displayMessage("Erro ao inserir usuário");
+    });
 }
 
 function showUserInfo (element) {
