@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById('course-form');
     const courseNameInput = document.getElementById('course-name');
     const platformInput = document.getElementById('platform');
+    const durationInput = document.getElementById('duration');
     const priceInput = document.getElementById('price');
     const linkInput = document.getElementById('link');
+    const imageInput = document.getElementById('image');
 
     // Quando o formulário for enviado
     form.addEventListener('submit', (event) => {
@@ -12,21 +14,25 @@ document.addEventListener("DOMContentLoaded", () => {
         // Obter os valores do formulário
         const courseName = courseNameInput.value.trim();
         const platform = platformInput.value.trim();
+        const duration = parseInt(durationInput.value.trim());
         const price = parseFloat(priceInput.value.trim());
         const link = linkInput.value.trim();
+        const image = imageInput.value.trim();
 
         // Validar os campos antes de enviar os dados
-        if (!courseName || !platform || isNaN(price) || !link) {
+        if (!courseName || !platform || isNaN(duration) || isNaN(price) || !link || !image) {
             alert("Por favor, preencha todos os campos corretamente.");
             return;
         }
 
         // Criar o novo curso
         const newCourse = {
-            courseName,
-            platform,
-            price,
-            link
+            nome_curso: courseName,
+            plataforma: platform,
+            duracao: duration,
+            preco: price,
+            link: link,
+            imagem: image
         };
 
         // Enviar os dados para o JSON Server
