@@ -232,13 +232,10 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 
 
 ## Vídeo do Projeto
-O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução. ⚠️ EXEMPLO ⚠️
-[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.
->
-> Inclua um link para o vídeo do projeto.
+O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
+
+[![Título do vídeo](https://img.youtube.com/vi/kQi-WQbb1JM/0.jpg)](https://www.youtube.com/watch?v=kQi-WQbb1JM)
+
 
 ## Funcionalidades
 
@@ -298,57 +295,37 @@ Registro dos comentarios feito pelos usuarios
 ```
 #### Funcionalidade 3 - Cadastro de Livros
 Permite o cadastro, edição e exclusão de livros.
-* **Estrutura de dados:** [Livros](#ti_ed_contatos)
+* **Estrutura de dados:** [livros](#ti_ed_contatos)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login
-  * Clicar no card de cadastro de livros
+  * Abra a pagina de cadastro de livros 
+  * Preencha o campo com as informações e clique em cadastrar
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
-## Estruturas de Dados
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema
+![Tela de Funcionalidade](images/cadastro-livro.png)
+
+### Estrutura de Dados - Cadastro de livros
+Registra um novo livro no sistema
 ```json
   {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
+      "titulo": "Pai Rico, Pai Pobre",
+      "autor": "Robert Kiyosaki",
+      "editora": "Alta Books",
+      "ano": 2017,
+      "categoria": "Educação Financeira",
+      "sinopse": "Kiyosaki usa usa própria vivência na narrativa, que busca desenvolver uma mentalidade empreendedora nas pessoas.  O milionário americano é filho de um funcionário público que, apesar de ser inteligente e honesto, nunca havia conseguido atingir a independência financeira. Ele é o pai pobre.  Em contrapartida, o pai rico é representado pelo melhor amigo do escritor, um comerciante que conseguiu construir grande riqueza devido à forma como lidava com dinheiro e que ensinou a ele tudo sobre finanças.",
+      "capa": "https://www.mobills.com.br/blog/wp-content/uploads/2021/01/livro-pai-rico-pai-pobre-robert-kiyosaki-1-768x1073.jpg",
+      "compra": "https://www.mobills.com.br/blog/amazon-pai-rico-pai-pobre",
+      "id": 1
+    }
 ```
 #### Funcionalidade 4 - Filtro de livros
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
-* **Estrutura de dados:** [Usuarios](#ti_ed_contatos)
+* **Estrutura de dados:** [livros](#ti_ed_contatos)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login
-  * Clique na sua foto de perfil no canto superior direito
-  * Em seguida, escolha a opção Configurações
+  * Abra a tela de Livros
+  * Clique em algum filtro seja na parte superior ou no prorpio livro na parte de categorias
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
-## Estruturas de Dados
-Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info
-##### Estrutura de Dados - Usuários  ⚠️ EXEMPLO ⚠️
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema
-```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
-```
+![Tela de Funcionalidade](images/filtro.png)
+
 #### Funcionalidade 5 - Tela de planilha de gestão financeira + notificações de valor limite
 Permite a entrada de dados necessários para a criação da planilha através de um formulário sucinto. Ao ser criada a planilha, o usuário poderá entrar com informações sobre seus gastos mensais e visualizar um resumo financeiro, como o total gasto e saldo restante, por exemplo. A sub-funcionalidade de notificações permite que o usuário seja notficado quando o total gasto se aproximar do valor limite definido no formulário. As notificações também ficam guardadas no ícone de notificação.  
 
@@ -414,15 +391,81 @@ Registro do historico de investimentos calculados pelo usuario
         "valorTotal": "1268.25"
   }
 ```
+
+
+
+
+#### Funcionalidade 7 - Cadastro de cursos
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+* **Estrutura de dados:** [Cursos](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra a tela de cursos
+  * Clique no link para cadastrar o curso logo ao final da tela
+  * Preencha os campos e cadastre um novo curso
+* **Tela da funcionalidade**:
+  
+![Tela de Funcionalidade](images/cadastrocursos.png)
+
+
+
+
+#### Estrutura de Dados - Cursos
+Cadastra no sistema as informações sobre o curso
+```json
+    {
+      "id": 1,
+      "nome_curso": "Introdução à Economia",
+      "imagem": "https://i.ytimg.com/vi/rodzaND5E9k/maxresdefault.jpg",
+      "duracao": 20,
+      "link": "https://youtu.be/mDOmLJFXKlk?si=b7jUitL05l9bn0do",
+      "plataforma": "YouTube"
+    }
+```
+
+
+
+
+#### Funcionalidade 8 - Cadastro de Noticias
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+* **Estrutura de dados:** [noticias](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra a tela de noticias sobre finanças
+  * Clique no link para cadastrar a noticia logo ao final da tela
+  * Preencha os campos e cadastre uma nova noticia
+* **Tela da funcionalidade**:
+  
+![Tela de Funcionalidade](images/cadastronoticias.png)
+
+
+
+
+#### Estrutura de Dados - noticias
+Cadastra no sistema as informações sobre a noticia
+```json
+    {
+      "titulo": "O que é Bitcoin?",
+      "descricao": "Saiba mais sobre a criptomoeda mais famosa do mundo",
+      "imagem": "imagens/bitcoin.jpg",
+      "autor": "Gustavo H. Montanari",
+      "data": "2024-10-01",
+      "categoria": "criptomoedas",
+      "id": "aa68"
+    }
+```
+
+
+
 ## Módulos e APIs
 Esta seção apresenta os módulos e APIs utilizados na solução
+
 **Images**:
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
+* Storyset - [https://storyset.com/](https://storyset.com/) 
+
 **Fonts:**
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+* Google Fonts - [https://fonts.google.com/](https://fonts.google.com/)
+
 **Scripts:**
-* jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
+* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/)
 
 
 # Referências
