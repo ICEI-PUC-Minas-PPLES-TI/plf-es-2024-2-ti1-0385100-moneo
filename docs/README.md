@@ -318,7 +318,7 @@ Registra um novo livro no sistema
     }
 ```
 #### Funcionalidade 4 - Filtro de livros
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
 * **Estrutura de dados:** [livros](#ti_ed_contatos)
 * **Instruções de acesso:**
   * Abra a tela de Livros
