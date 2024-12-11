@@ -235,7 +235,12 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 ## Vídeo do Projeto
 O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
 
-[![Título do vídeo](https://img.youtube.com/vi/kQi-WQbb1JM/0.jpg)](https://www.youtube.com/watch?v=kQi-WQbb1JM)
+
+[![Moneo](https://img.youtube.com/vi/SrCpzZvMA94/0.jpg)](https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs)
+
+
+Link de video no Youtube: https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs
+
 
 
 ## Funcionalidades
