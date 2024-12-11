@@ -239,7 +239,7 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 [![Moneo](https://img.youtube.com/vi/SrCpzZvMA94/0.jpg)](https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs)
 
 
-Link de video no Youtube: https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs
+Link do vídeo no Youtube: https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs
 
 
 
