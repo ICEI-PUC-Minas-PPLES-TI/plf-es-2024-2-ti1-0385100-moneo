@@ -123,6 +123,11 @@ body {
     color: #ffffff;
 }
 
+.btnfiltros.active{
+    background-color: #68ce4b;
+    color: #ffffff;
+}
+
 .btns {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

@@ -1,14 +1,27 @@
+
+var filtros = document.querySelectorAll('.btnfiltros');
+
 document.addEventListener('DOMContentLoaded', () => {
     var categoriaInicial = "Todos";
     preencherCampos();
     pegarLivros(categoriaInicial);
     carregarComentario();
 
-    document.getElementById('btnTodos').addEventListener('click', () => pegarLivros(document.getElementById('btnTodos').value));
-    document.getElementById('btnFinancas').addEventListener('click', () => pegarLivros(document.getElementById('btnFinancas').value));
-    document.getElementById('btnEducacao').addEventListener('click', () => pegarLivros(document.getElementById('btnEducacao').value));
-    document.getElementById('btnInvest').addEventListener('click', () => pegarLivros(document.getElementById('btnInvest').value));
-    document.getElementById('btnPlan').addEventListener('click', () => pegarLivros(document.getElementById('btnPlan').value));
+
+    filtros.forEach(item => {
+        //Remove a class "active" de todos os botões que tiverem
+        item.addEventListener('click', () => {
+            filtros.forEach(filtro => filtro.classList.remove('active'));
+
+            //Adiciona a class active apenas aos botão que foi clicado
+            item.classList.add('active');
+
+            const valorCategoria = item.getAttribute('value');
+            if (valorCategoria) {
+                pegarLivros(valorCategoria);
+            }
+        });
+    });
 });
 
 function preencherCampos() {
@@ -93,9 +106,23 @@ function pegarLivros(catego) {
             }
             document.getElementById('container-cards').innerHTML = cardLivro;
             // Adicionar eventos para os botões de categoria dentro dos cards
-            document.querySelectorAll('.btnCategoria').forEach(btn => {
-                btn.addEventListener('click', () => pegarLivros(btn.value));
-            });
+            const categorias = document.querySelectorAll('.btnCategoria');
+
+            categorias.forEach(item => {
+                item.addEventListener('click', () => {
+                    filtros.forEach(filtro => filtro.classList.remove('active'));
+
+                    const valorCategoria = item.getAttribute('value');
+                    if (valorCategoria) {
+                        pegarLivros(valorCategoria);
+                    }
+
+                    const filtroAtivo = document.querySelector(`.btnfiltros[value="${valorCategoria}"]`);
+                    if (filtroAtivo) {
+                        filtroAtivo.classList.add('active');
+                    }
+                })
+            })
         })
         .catch(error => console.error("Erro ao buscar os livros:", error));
 }
@@ -128,7 +155,7 @@ function adicionarComentario(livroId) {
 
     if (!comentarioTexto) {
         console.log("Comentário vazio, nada a enviar");
-        return; 
+        return;
     }
 
     const estrelas = document.querySelectorAll(`#cardLivro-${livroId} .star`);
@@ -154,13 +181,13 @@ function adicionarComentario(livroId) {
                 if (livro.id === parseInt(livroId)) {
                     nomeLivro = livro.titulo;
                     livroSelecionado = livro;
-                   
+
                 }
             }
 
             if (!livroSelecionado) {
                 console.error('Livro não encontrado!');
-                return;  
+                return;
             }
 
             const usuario = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
@@ -171,7 +198,7 @@ function adicionarComentario(livroId) {
                 nomeusuario: usuario.nome,
                 nomeLivro: nomeLivro,
                 comentario: comentarioTexto,
-                nota: notaSelecionada,  
+                nota: notaSelecionada,
                 fotousuario: usuario.foto
             };
             fetch('/comentarios', {
@@ -181,22 +208,22 @@ function adicionarComentario(livroId) {
                 },
                 body: JSON.stringify(novoComentario),
             })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Erro ao adicionar comentário');
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Comentário adicionado:', data);
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao adicionar comentário');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Comentário adicionado:', data);
 
-                const containerComentarios = document.getElementById('container-comentarios');
-                if (!containerComentarios) {
-                    console.error("Elemento 'container-comentarios' não encontrado!");
-                    return;
-                }
+                    const containerComentarios = document.getElementById('container-comentarios');
+                    if (!containerComentarios) {
+                        console.error("Elemento 'container-comentarios' não encontrado!");
+                        return;
+                    }
 
-                let cardComentario = `
+                    let cardComentario = `
                         <div class="col-md-4 col-sm-6 mb-4">
                         <div class="card">
                             <div class="card-body card-comentario">
@@ -217,19 +244,19 @@ function adicionarComentario(livroId) {
                         </div>
                     </div>
                 `;
-                containerComentarios.innerHTML += cardComentario;
+                    containerComentarios.innerHTML += cardComentario;
 
-                document.getElementById(`textoComentario-${livroId}`).value = '';
-                estrelas.forEach(star => star.classList.remove('selected'));
-            })
-            .catch(error => {
-                console.error('Erro ao adicionar comentário:', error);
-            });
+                    document.getElementById(`textoComentario-${livroId}`).value = '';
+                    estrelas.forEach(star => star.classList.remove('selected'));
+                })
+                .catch(error => {
+                    console.error('Erro ao adicionar comentário:', error);
+                });
         })
         .catch(error => {
             console.error("Erro ao buscar os livros:", error);
         });
-        carregarComentario();
+    carregarComentario();
 }
 
 function carregarComentario() {
@@ -299,7 +326,7 @@ function carregarComentario() {
                     }
 
                     botoesComentarios(comentarios);
-                    
+
                 })
                 .catch(error => console.error("Erro ao carregar comentários:", error));
         })
@@ -320,7 +347,7 @@ function botoesComentarios(comentarios) {
             console.log('Procurando botões para o comentário ID:', comentarioId);
 
             if (btnEditar) {
-                
+
                 btnEditar.removeAttribute('hidden');
                 btnEditar.addEventListener('click', () => {
                     editarComentario(comentarioId, comentarios);
@@ -338,7 +365,7 @@ function botoesComentarios(comentarios) {
     }
 }
 
-function editarComentario(comentarioId, comentarios){
+function editarComentario(comentarioId, comentarios) {
     for (let i = 0; i < comentarios.length; i++) {
         let comentario = comentarios[i];
 
@@ -353,7 +380,7 @@ function editarComentario(comentarioId, comentarios){
             btnEditar.style.display = 'none';
             textareaComentario.style.display = 'block';
             textoComentario.style.display = 'none';
-            btnSalvar.style.display = 'inline-block'; 
+            btnSalvar.style.display = 'inline-block';
             estrelasComentario.style.display = 'none'
 
             textareaComentario.value = comentario.comentario;
@@ -380,7 +407,7 @@ function editarComentario(comentarioId, comentarios){
                     });
                 });
             });
-            
+
             btnSalvar.addEventListener('click', () => {
                 salvarComentario(comentarioId, comentarios, textareaComentario);
                 btnEditar.style.display = 'inline-block';
@@ -388,12 +415,12 @@ function editarComentario(comentarioId, comentarios){
                 estrelasContainer.style.display = 'none';
                 textareaComentario.style.display = 'none';
                 btnSalvar.style.display = 'none';
-                textoComentario.style.display = 'block'; 
-                
+                textoComentario.style.display = 'block';
+
             });
 
         } else {
-            
+
             const textareaComentario = document.getElementById(`editComentario-${comentario.id}`);
             const textoComentario = document.getElementById(`comentarioLivro-${comentario.id}`);
             const btnSalvar = document.getElementById(`btnSalvar-${comentario.id}`);
@@ -409,65 +436,65 @@ function editarComentario(comentarioId, comentarios){
     }
 }
 
-function salvarComentario(comentarioId, comentarios){
+function salvarComentario(comentarioId, comentarios) {
 
     for (let i = 0; i < comentarios.length; i++) {
         let comentario = comentarios[i];
-    
-    if (comentario.id === comentarioId) {
-                const btnSalvar = document.getElementById(`btnSalvar-${comentario.id}`);
-                const textareaComentario = document.getElementById(`editComentario-${comentario.id}`);
-                const textoComentario = document.getElementById(`comentarioLivro-${comentario.id}`);
-                const novoComentarioTexto = textareaComentario.value.trim();
-                const estrelasContainer = document.getElementById(`estrelasEditar-${comentario.id}`);
 
-                const comentarioAtualizado = {
-                    id: comentario.id,
-                    idusuario: comentario.idusuario,
-                    livroId: comentario.livroId,
-                    nomeusuario: comentario.nomeusuario,
-                    nomeLivro: comentario.nomeLivro,
-                    comentario: novoComentarioTexto, 
-                    nota: comentario.nota,
-                    fotousuario: comentario.fotousuario
-                };
+        if (comentario.id === comentarioId) {
+            const btnSalvar = document.getElementById(`btnSalvar-${comentario.id}`);
+            const textareaComentario = document.getElementById(`editComentario-${comentario.id}`);
+            const textoComentario = document.getElementById(`comentarioLivro-${comentario.id}`);
+            const novoComentarioTexto = textareaComentario.value.trim();
+            const estrelasContainer = document.getElementById(`estrelasEditar-${comentario.id}`);
 
-                fetch(`/comentarios/${comentarioId}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(comentarioAtualizado) 
-                })
+            const comentarioAtualizado = {
+                id: comentario.id,
+                idusuario: comentario.idusuario,
+                livroId: comentario.livroId,
+                nomeusuario: comentario.nomeusuario,
+                nomeLivro: comentario.nomeLivro,
+                comentario: novoComentarioTexto,
+                nota: comentario.nota,
+                fotousuario: comentario.fotousuario
+            };
+
+            fetch(`/comentarios/${comentarioId}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(comentarioAtualizado)
+            })
                 .then(response => response.json())
                 .then(updatedComentario => {
                     textoComentario.innerText = novoComentarioTexto;
                     comentario.comentario = novoComentarioTexto;
                     carregarComentario();
-                    
+
                 })
                 .catch(error => {
                     console.error('Erro ao atualizar comentário:', error);
                 });
-                
+
         }
     }
 }
 
-function deletarComentario(comentarioId){
+function deletarComentario(comentarioId) {
     fetch(`/comentarios/${comentarioId}`, {
         method: 'DELETE'
     })
-    .then(response => {
-        if (response.ok) {
-            console.log('Comentário apagado com sucesso');
+        .then(response => {
+            if (response.ok) {
+                console.log('Comentário apagado com sucesso');
 
-            carregarComentario();
-        } else {
-            console.error('Erro ao apagar comentário');
-        }
-    })
-    .catch(error => {
-        console.error('Erro ao fazer a requisição de delete:', error);
-    });
+                carregarComentario();
+            } else {
+                console.error('Erro ao apagar comentário');
+            }
+        })
+        .catch(error => {
+            console.error('Erro ao fazer a requisição de delete:', error);
+        });
 }

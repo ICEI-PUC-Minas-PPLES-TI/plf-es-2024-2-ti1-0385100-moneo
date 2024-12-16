@@ -189,6 +189,7 @@ Estes são os protótipos de telas do sistema.
 ##### Landing Page Moneo 
 
 Essa é uma landing page para que o usuário posssa navegar pelas funcionalidades do sistema após fazer o login/cadastro. Nessa tela ficam as informações centrais do site. Também há alguns exemplos de telas que haverão no sistema.
+
 [FIGMA](https://www.figma.com/design/P0nk2tg3DiBRviK0LgYxeA/Moneo?node-id=0-1&node-type=canvas&t=wHThGEPkpkdZTwOI-0)
 ![Wireframe](files/wireframe.png)
 ![curso](https://github.com/user-attachments/assets/a353fef2-e2c2-4c79-80e2-94f7215b26c5)
@@ -234,7 +235,12 @@ Divisão de papéis no grupo e apresentação da estrutura da ferramenta de cont
 ## Vídeo do Projeto
 O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.
 
-[![Título do vídeo](https://img.youtube.com/vi/kQi-WQbb1JM/0.jpg)](https://www.youtube.com/watch?v=kQi-WQbb1JM)
+
+[![Moneo](https://img.youtube.com/vi/SrCpzZvMA94/0.jpg)](https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs)
+
+
+Link do vídeo no Youtube: https://youtu.be/SrCpzZvMA94?si=pHlVyfc_oscZ-djs
+
 
 
 ## Funcionalidades
@@ -297,15 +303,20 @@ Registro dos comentarios feito pelos usuarios
 Permite o cadastro, edição e exclusão de livros.
 * **Estrutura de dados:** [livros](#ti_ed_contatos)
 * **Instruções de acesso:**
-  * Abra a pagina de cadastro de livros 
-  * Preencha o campo com as informações e clique em cadastrar
+  * Abra o site e efetue o login
+  * Acesse a página de cadastro de livros clicando sobre o card "Cadastro de Livros" 
+  * Preencha os campos com as informações e clique no botão cadastrar
+  * Escolha um dos livros já cadastrados apresentados na tabela e clique sobre a livro com as informações do livro escolhido
+  * Realize as devidas alterações nos dados do livro nos campos de informações e clique no botão Alterar
+  * Para excluir um livro cadastrado, clique na linha da tabela e em seguida clique no botão excluir
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/cadastro-livro.png)
+![image](https://github.com/user-attachments/assets/991efd8b-1f0a-4ac4-9b25-63060f7a2b43)
 
 ### Estrutura de Dados - Cadastro de livros
 Registra um novo livro no sistema
 ```json
-  {
+"livros": [
+    {
       "titulo": "Pai Rico, Pai Pobre",
       "autor": "Robert Kiyosaki",
       "editora": "Alta Books",
@@ -316,15 +327,20 @@ Registra um novo livro no sistema
       "compra": "https://www.mobills.com.br/blog/amazon-pai-rico-pai-pobre",
       "id": 1
     }
+]
 ```
 #### Funcionalidade 4 - Filtro de livros
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
 * **Estrutura de dados:** [livros](#ti_ed_contatos)
 * **Instruções de acesso:**
-  * Abra a tela de Livros
-  * Clique em algum filtro seja na parte superior ou no prorpio livro na parte de categorias
+  * Abra o site e efetue o login
+  * Acesse a página da biblioteca clicando sobre o card "Indicações de livros"
+  * Para filtrar os livros em uma categoria específica, escolha uma das categoria na seçao de filtros e clique sobre o botão
+  * A filtragem também pode ser realizada clicando sobre o botão que indica a categoria dos livros em cada card
+  * Escolha um dos livros e clique no botão "Comprar" na parte inferior da imagem da capa para ser redirecionado para a plataforma de compra do livro
 * **Tela da funcionalidade**:
-![Tela de Funcionalidade](images/filtro.png)
+![image](https://github.com/user-attachments/assets/055fc36f-f079-4f5d-b50c-ba8cfb4b1bb4)
+
 
 #### Funcionalidade 5 - Tela de planilha de gestão financeira + notificações de valor limite
 Permite a entrada de dados necessários para a criação da planilha através de um formulário sucinto. Ao ser criada a planilha, o usuário poderá entrar com informações sobre seus gastos mensais e visualizar um resumo financeiro, como o total gasto e saldo restante, por exemplo. A sub-funcionalidade de notificações permite que o usuário seja notficado quando o total gasto se aproximar do valor limite definido no formulário. As notificações também ficam guardadas no ícone de notificação.  
